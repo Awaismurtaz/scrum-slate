@@ -1,0 +1,74 @@
+.projects{
+    margin-top: 6rem;
+    z-index: -1;
+}
+.project_header{
+    background-color: #ffff !important;
+    box-shadow: unset !important;
+    color: black !important;
+}
+.project_header .ViewMethod{
+    height:40px;
+    border-radius:10px ;  
+}
+.project_title{
+    font-weight: 600 !important;
+    opacity: 1;
+    font-size: 19px !important;
+    color: "#0052CC";
+}
+.allproject{
+    padding:10px 25px 0px 50px;
+}
+.allproject .link{
+    text-decoration: none;
+}
+.latest_update{
+   margin-left: 25px;
+}
+.latest_update .text{
+    font-size: 15px;
+    font-weight: 600;
+}
+.project_data{
+    margin: 20px 0px 30px;
+    height: 16px;
+    align-items: center;
+    display: flex;
+}
+.project_data .data{
+    box-shadow: unset;
+    padding: 10px 0px;
+    font-weight: 600;
+    background: unset;
+}
+.projectAvatarGroup {
+   display: flex;
+   flex-direction: row !important;
+}
+.projectAvatarGroup .avatar{
+   margin-left: -17px;
+   height: 30px;
+   width: 30px;
+   border: unset;
+}
+.projectAvatarGroup  .add{
+    background-color: #0052CC !important;
+    cursor: pointer;
+}
+.projectfooter{
+    justify-content: space-between;
+}
+.hr{
+    border-left: 4px solid #0052CC;
+    height: 13rem;
+    position: absolute;
+    border-radius: 10px;
+    margin: 5px auto;
+}
+
+@media (max-width:1366px) and (min-width:975px){
+    .project_title{
+        font-size: 17px !important;
+    }
+}

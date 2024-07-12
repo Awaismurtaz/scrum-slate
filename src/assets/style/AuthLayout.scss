@@ -1,0 +1,30 @@
+
+.authlayout{
+    .navbar{
+        padding: 30px 0px 0px 0px;
+        @media(max-width:1366px){
+            padding: 10px 0px 0px 0px;
+        }
+            .button_home{
+                 float: right;
+                 padding: 10px 20px;
+                 background-color: #ffff;
+                 color: var(--unnamed-color-0052cc);
+                 font-weight: 500;
+                 border-radius: 10px;
+                 border: none;
+                 text-decoration: unset;
+                 @media(max-width:390px){
+                    padding: 10px 10px;
+                }
+             }
+             .navbar-brand{
+                img{
+                    @media(max-width:390px){
+                        width: 65%;
+                    }
+                }
+             }
+         }
+}
+

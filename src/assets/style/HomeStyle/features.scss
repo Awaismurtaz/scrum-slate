@@ -1,0 +1,50 @@
+.features{
+    background: #B7D3FE80 0% 0% no-repeat padding-box;
+    .container{
+            height: 498px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .title{
+                margin-bottom: 30px;
+                font-size: 30px;
+                line-height: 39px;
+                color: var(  --unnamed-color-000000);
+            }
+        .row{
+            .card{
+                .card-body{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    padding: 30px 15px;
+                    .card_img{
+                        width: 76px;
+                        height: 76px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 10px;
+                        background: rgba(0, 82, 204, 0.1) 0% 0% no-repeat padding-box;  
+                    }
+                    .team{
+                        background: rgba(134, 237, 158, 0.514) 0% 0% no-repeat padding-box !important;;  
+                    }
+                    .Bug {
+                        background: rgba(240, 20, 46, 0.1) 0% 0% no-repeat padding-box !important;
+                    }
+                    .card-text{
+                        font-size: 17px;
+                        line-height: 27px;
+                        color: var( --unnamed-color-707070);
+                        letter-spacing: 0.07px;
+                        opacity: 0.8;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}

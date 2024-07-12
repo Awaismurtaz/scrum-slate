@@ -1,0 +1,43 @@
+.companies{
+    .container-fluid{
+        padding:unset;
+        .card{
+            border: none;
+            .card-body{
+                .card-title{
+                    margin: 70px auto 30px auto;
+                }
+                .companies_link{
+                    display: flex;
+                    justify-content: center;
+                    gap: 6rem;
+                    align-items: center;
+                    list-style: none;
+                    flex-wrap: wrap;
+                    padding: 30px 0px 30px 0px;
+                    @media (max-width:1280px){
+                        gap: 20px;
+                    }
+                    @media (max-width:1366px){
+                        gap: 15px;
+                    }
+                    li{
+                        a{
+                           background-color: var( --unnamed-color-f4f5f7);
+                           padding: 22px 25px;
+                           border-radius: 10px;
+                           width: 185px;
+                           height: 60px;
+                           @media (max-width:1280px){
+                            padding: 22px 9px;
+                        }
+                        @media (max-width:1366px){
+                            padding: 22px 12px;
+                        }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

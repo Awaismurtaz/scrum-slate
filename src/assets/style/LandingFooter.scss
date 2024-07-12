@@ -1,0 +1,80 @@
+.LandingPageFooter{
+    background: transparent
+     linear-gradient(102deg, #FFFFFF 0%, #a0bbe250 100%) 0% 0% no-repeat padding-box;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    .container{
+        .row{
+            .col{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+              .card{
+                text-align: start;
+                background: transparent;
+                border: unset;
+                img{
+                    width: 200px;
+                    height: 60px;
+                }
+                .card-body{
+                    padding:20px 0px;
+                    .card-text{
+                        font-size: 19px;
+                        line-height:27px;
+                        color:var( --unnamed-color-000000);
+                        font-weight: 600;
+                    }
+                    .social_icon{
+                        display: flex;
+                        gap: 10px;
+                        padding: 20px 0px 0px 0px;
+                        .social_btn{
+                            border-radius: 10px;
+                            padding: 7px 14px;
+                            box-shadow: 0px 2px 35px rgba(13, 95, 220, 0.2);
+                            img{
+                                width: 15px;
+                                height: 20px;
+                            }
+                            &:hover{
+                                background:var(--unnamed-color-0052cc);
+                                img{
+                                    filter: invert(100);
+                                }
+                            }
+                        }
+                    }
+                }
+              }
+            }
+            .links{
+                .card{
+                    .card-title{
+                        margin-bottom: 20px;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 27px;
+                        opacity: 1;
+                        color: var(--unnamed-color-000000);
+                    }
+                    .list-group{
+                        .list-group-item{
+                            color: var(--unnamed-color-000000);
+                            background-color:unset;
+                            border:unset;
+                            padding: 10px 0px;
+                            font-weight: 500;
+                           a{
+                            color: #000;
+                            text-decoration: unset;
+                           }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

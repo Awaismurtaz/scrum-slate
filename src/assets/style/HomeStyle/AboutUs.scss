@@ -1,0 +1,40 @@
+.about{
+    .container{
+        height: 636px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .row{
+            .col{
+                .card{
+                    border: unset;
+                    .card-body{
+                        .card-title{
+                            font-size: 30px;
+                            line-height: 39px;
+                            letter-spacing: 0.12px;
+                            color: var(--unnamed-color-000000);
+                            font-weight: 700;
+                        }
+                        .card-text{
+                            font-size: 19px;
+                            line-height: 30px;
+                            letter-spacing: 0.12px;
+                            color: var(--unnamed-color-000000);
+                            font-weight: 600;
+                        }
+                        a{
+                            width: 160px;
+                            height: 48px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

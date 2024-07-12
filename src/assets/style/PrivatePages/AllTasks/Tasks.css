@@ -1,0 +1,90 @@
+.tasks{
+    margin-top: 6rem;
+}
+.task_header{
+    background-color: #ffff !important;
+    box-shadow: unset !important;
+    color: black !important;
+}
+.ComponentName{
+    flex-grow: 1;
+    opacity: 0.9;
+    font-size: 27px !important;
+    font-weight:700 !important;
+}
+.taskgrid{
+    margin: 10px 22px 0px 22px;
+    background-color: var(--unnamed-color-f4f5f7);
+    border-radius: 10px;
+    padding: 10px;
+}
+.TaskGridHeader_text{
+    display: flex;
+    align-items:baseline;
+    gap: 10px;
+}
+.TaskGridHeader{
+    justify-content: space-between;
+    align-items: center;
+}
+.taskslist{
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px 20px;
+}
+.tasklistdata{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.tasklistdata .date,
+.tasklistdata .ToDo,
+.tasklistdata .Chat,
+.tasklistdata .tasknumber,
+.tasklistdata .priority{
+    padding: 5px 14px !important;
+    color: var(--unnamed-color-707070);
+    font-size: 13px;
+    box-shadow: unset;
+}
+.tasklistdata .tasknumber,
+.tasklistdata .ToDo,
+.tasklistdata .Chat{
+    background-color: #f0f0f0f0;
+}
+.tasklistdata .priority{
+    background-color:  #ff75523c;
+    color: var( --unnamed-color-ff7452);
+}
+.tasklistdata .date{
+    background-color:  #0052cc3f;
+    color: var(--unnamed-color-0052cc);
+}
+.subtasks{
+    width: 96%;
+    margin-left: 4rem;
+}
+.MuiMenu-paper{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+@media (max-width:1366px){
+    .ComponentName{
+        margin-left: 35px !important;
+    }
+    .taskgrid{
+        margin: 10px 22px 0px 45px;
+    }
+        .tasklistdata .date,
+        .tasklistdata .ToDo,
+        .tasklistdata .Chat,
+        .tasklistdata .tasknumber,
+        .tasklistdata .priority {
+            padding: 5px 9px !important;
+            font-size: 13px;
+        }
+        .subtasks{
+            width: 95%;
+            margin-left: 3rem;
+        }
+}

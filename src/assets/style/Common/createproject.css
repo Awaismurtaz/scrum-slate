@@ -1,0 +1,34 @@
+.create_Project{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    box-shadow: 24;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:#ffffff;
+}
+.create_Project .label{
+    font-size: 20px;
+    font-weight: 600;
+}
+/* .rdw-block-dropdown ,
+.rdw-fontfamily-dropdown ,
+.rdw-fontsize-dropdown {
+    display: none;
+} */
+.create_Project .editor{
+    border: 1px solid rgb(200, 197, 197);
+    padding: 10px;
+    border-radius: 10px;
+}
+.css-11lq3yg-MuiGrid-root {
+    align-items: end;
+}
+.css-79ws1d-MuiModal-root {
+    z-index:1100 !important;
+}
+.Mui-expanded{
+    z-index:1300 !important;
+}

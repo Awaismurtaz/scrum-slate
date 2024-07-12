@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box
+}
+@import "../style/roots.scss";
+@import "../style//signin.scss";
+@import '../style/signup.scss';
+@import '../style/Forgotpassword.scss';
+@import "../style/AuthLayout.scss";
+@import "../style/Lazyloading.scss";
+@import "../style/NewPassword.scss";
+@import "../style/LandingHeader.scss";
+@import "../style/LandingFooter.scss";
+@import "../style/AuthPageLayout.scss";
+@import "../style/HomeStyle/started.scss";
+@import "../style/HomeStyle/companies.scss";
+@import "../style/HomeStyle/Chart.scss";
+@import "../style/HomeStyle/features.scss";
+@import "../style/HomeStyle/AboutUs.scss";
+@import "../style/HomeStyle/Testimonials.scss";
+@import "../style/HomeStyle/update.scss";
+@import "../style/PrivateLayoutStyle/header.css";
+@import "../style/PrivateLayoutStyle/sidebar.css";
+@import "../style/Common/createproject.css";
+@import '../style/PrivatePages/AllProjects/projects.css';
+@import "../style/PrivatePages/AllTasks/Tasks.css";
+@import "../style/projectLayout/header.css";
+@import "../style/PrivatePages/AllProjects/Overview.css";
+@import "../style/PrivatePages/Sprints/sprints.css";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");

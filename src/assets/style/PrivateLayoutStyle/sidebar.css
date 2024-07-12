@@ -1,0 +1,47 @@
+.sidebar{
+    margin-top:6rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 51rem;
+    padding: 0px 10px 0px 17px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 10px 0px;;
+}
+.sidebar .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root {
+    padding: 7px 60px !important;
+}
+@media (max-width:1366px){
+    .sidebar .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root {
+        padding: 7px 45px !important;
+    }
+}
+.sidebar .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:active,
+.sidebar .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:focus{
+    color:var(--unnamed-color-0052cc);
+}
+.sidebar .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:active,
+.sidebar .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:focus .icons{
+    color:var(--unnamed-color-0052cc);
+}
+.sidebar .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root.Mui-selected {
+    background-color: rgba(25, 118, 210, 0.08);
+    border-radius: 10px;
+}
+.sidebar .css-cveggr-MuiListItemIcon-root {
+    min-width: 35px;
+}
+.sidebar .css-10hburv-MuiTypography-root {
+    font-size: 16px;
+    /* font-weight: 600; */
+}
+.sidebar a{
+    text-decoration: none;
+    color: var( --unnamed-color-707070);
+}
+
+@media (max-width:1366px){
+    .sidebar{
+        height:33rem;
+    }
+}

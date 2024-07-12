@@ -1,0 +1,67 @@
+.signup{
+    .container{
+            .card{
+                width: 35%;
+                margin: 30px auto 0px auto;
+                box-shadow: -14px 14px 0px 1px rgba(255, 255, 255, 0.3);
+                padding: 10px 30px 0px 30px;
+                border-radius: 10px;
+                @media(max-width:390px){
+                    width: 100%;
+                }
+                @media(max-width:1366px){
+                    margin: 0px auto 0px auto;
+                }
+                .card-body{
+                    padding: 0px;
+                    .signin_form{
+                        padding: 15px 0px 0px 0px;
+                        @media(max-width:1366px){
+                            padding: 0px 0px 0px 0px;
+                        }
+                        .form-label{
+                            letter-spacing: 0.1px;
+                            color: var(--unnamed-color-292929);
+                            font-size: 14px;
+                        }
+                        .control_input{
+                            border-radius: 10px;
+                            height: 48px;
+                           &::placeholder {
+                                color: #9B9D9E;
+                                letter-spacing: 0.09px;
+                                font-size: 12px;
+                                line-height: 18px;
+                            }
+                            @media(max-width:1366px){
+                                height: 35px;
+                            }
+                        }
+                        .password{
+                            position: relative !important;
+                        }
+                        .eye{
+                            position: absolute;
+                            top: 44px;
+                            right: 20px;
+                        }
+                        .card-text{
+                            font-size: 14px;
+                            color: var(--unnamed-color-0052cc);
+                            font-weight: 500;
+                            span{
+                                color: unset !important;
+                            }
+                        }
+                        .btn_sign_in{
+                            background: var(--unnamed-color-0052cc);
+                            width: 100%;
+                            color: #fff;
+                            height: 48px;
+                        }
+                    }
+                }
+                    
+                }
+            }
+        }

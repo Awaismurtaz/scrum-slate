@@ -1,0 +1,89 @@
+.signin{
+    .container{
+            .card{
+                width: 35%;
+                margin: 50px auto 0px auto;
+                box-shadow: -14px 14px 0px 1px rgba(255, 255, 255, 0.3);
+                padding: 10px 30px;
+                border-radius: 10px;
+                @media(max-width:390px){
+                    width: 100%;
+                }
+                @media(max-width:1366px){
+                    margin: 0px auto 0px auto;
+                }
+                   .card-body{
+                    padding: 0px;
+                    .signin_form{
+                        padding: 15px 0px 0px 0px;
+                        .form-label{
+                            letter-spacing: 0.1px;
+                            color: var(--unnamed-color-292929);
+                            font-size: 14px;
+                        }
+                        input{
+                            border-radius: 10px;
+                            height: 48px;
+                           &::placeholder {
+                                color: #9B9D9E;
+                                letter-spacing: 0.09px;
+                                font-size: 12px;
+                            }
+                            @media(max-width:1366px){
+                                height: 38px;
+                            }
+                        }
+                        .password{
+                            position: relative !important;
+                        }
+                        .eye{
+                            position: absolute;
+                            top: 44px;
+                            right: 20px;
+                        }
+                        .card-text{
+                            font-size: 14px;
+                            color: var(--unnamed-color-0052cc);
+                            span{
+                                color: unset !important;
+                            }
+                        }
+                        .btn_sign_in{
+                            background: var(--unnamed-color-0052cc);
+                            width: 100%;
+                            color: #fff;
+                            height: 48px;
+                        }
+                    }
+                    .Apple,
+                    .google{
+                        position: relative;
+                        .btn_apple,
+                        .btn_google{
+                            background: var(--unnamed-color-f4f5f7);
+                            width: 100%;
+                            color:#292929;
+                            font-size: 14px;
+                            text-decoration: underline;
+                            letter-spacing: 0.07px;
+                            height: 40px;
+                        }
+                        .Apple_icon,
+                        .google_icon{
+                            position: absolute;
+                            top: 5px;
+                            left: 85px;
+                            @media(max-width:390px){
+                                left: 40px;
+                            }
+                            @media(max-width:1373px){
+                                left: 40px;
+                                left: 50px;
+                            }
+                        }
+                    }
+                   }
+                 
+                }
+            }
+        }

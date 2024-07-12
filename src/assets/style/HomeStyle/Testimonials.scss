@@ -1,0 +1,102 @@
+.testimonial {
+    background: #B7D3FE80 0% 0% no-repeat padding-box;
+
+    .container {
+        height: 701px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .title {
+            margin-bottom: 30px;
+            font-size: 30px;
+            line-height: 39px;
+            color: var(--unnamed-color-000000);
+        }
+
+        .Testmonial_slide {
+
+            // width: 80%;
+            .carousel {
+                display: flex;
+                align-items: center;
+
+                .icons {
+                    display: flex;
+                    align-items: center;
+
+                    .carousel-control-next,
+                    .carousel-control-prev {
+                        width: 30px !important;
+                        background-color: var(--unnamed-color-0052cc) !important;
+                        opacity: 1;
+                        height: 30px;
+                        border-radius: 6px;
+                        top: unset;
+                        bottom: unset;
+                    }
+
+                    .carousel-control-prev {
+                        left: -43px;
+                    }
+
+                    .carousel-control-next {
+                        right: -43px;
+                    }
+                }
+
+                .carousel-inner {
+                    .carousel-item {
+                        .row {
+                            .card {
+                                .card-body {
+                                    padding: 35px;
+
+                                    .profile_detail {
+                                        display: flex;
+                                        gap: 10px;
+                                        align-items: center;
+
+                                        img {
+                                            height: 40px;
+                                        }
+
+                                        .user_name {
+                                            display: flex;
+                                            flex-direction: column;
+
+                                            label {
+                                                font-size: 20px;
+                                                font-weight: 600;
+                                                color: var(--unnamed-color-000000);
+                                                line-height: 43px;
+                                            }
+
+                                            i {
+                                                color: gold;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .colon {
+                                    position: absolute;
+                                    right: 26px;
+                                    top: 45px;
+                                }
+
+                                .card-text {
+                                    font-size: 18px;
+                                    font-weight: 600;
+                                    line-height: 30px;
+                                    color: rgba(113, 110, 110, 0.7);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

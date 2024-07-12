@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="534" height="284" viewBox="0 0 534 284">
+  <defs>
+    <filter id="BG" x="292.5" y="76.5" width="164" height="123" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#44444f" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1206" data-name="Group 1206" transform="translate(1007 -5506.874)">
+    <rect id="Bg-2" data-name="Bg" width="534" height="284" rx="6" transform="translate(-1007 5506.874)" fill="#fff"/>
+    <rect id="Shape" width="448.658" height="0.984" transform="translate(-943.454 5575.921)" fill="#f1f1f5"/>
+    <text id="_1k" data-name="$1k" transform="translate(-972 5570.874)" fill="#7e84a3" font-size="6" font-family="Poppins-Regular, Poppins"><tspan x="-7" y="0">30</tspan></text>
+    <rect id="Shape-2" data-name="Shape" width="448.658" height="0.984" transform="translate(-943.454 5604.475)" fill="#f1f1f5"/>
+    <text id="_1k-2" data-name="$1k" transform="translate(-972 5599.874)" fill="#7e84a3" font-size="6" font-family="Poppins-Regular, Poppins"><tspan x="-7" y="0">25</tspan></text>
+    <rect id="Shape-3" data-name="Shape" width="448.658" height="0.984" transform="translate(-943.454 5633.762)" fill="#f1f1f5"/>
+    <text id="_1k-3" data-name="$1k" transform="translate(-972 5628.874)" fill="#7e84a3" font-size="6" font-family="Poppins-Regular, Poppins"><tspan x="-7" y="0">20</tspan></text>
+    <rect id="Shape-4" data-name="Shape" width="448.658" height="0.984" transform="translate(-943.454 5662.316)" fill="#f1f1f5"/>
+    <text id="_1k-4" data-name="$1k" transform="translate(-969 5657.874)" fill="#7e84a3" font-size="6" font-family="Poppins-Regular, Poppins"><tspan x="-5" y="0">15</tspan></text>
+    <rect id="Shape-5" data-name="Shape" width="448.658" height="0.984" transform="translate(-943.454 5704.871)" fill="#f1f1f5"/>
+    <text id="_1k-5" data-name="$1k" transform="translate(-969 5686.874)" fill="#7e84a3" font-size="6" font-family="Poppins-Regular, Poppins"><tspan x="-5" y="0">10</tspan></text>
+    <rect id="Shape-6" data-name="Shape" width="448.658" height="0.984" transform="translate(-943.454 5720.158)" fill="#f1f1f5"/>
+    <text id="_1k-6" data-name="$1k" transform="translate(-971 5714.874)" fill="#7e84a3" font-size="6" font-family="Poppins-Regular, Poppins"><tspan x="-7" y="0">05</tspan></text>
+    <rect id="Shape-7" data-name="Shape" width="448.658" height="0.984" transform="translate(-943.454 5748.712)" fill="#f1f1f5"/>
+    <text id="_1k-7" data-name="$1k" transform="translate(-968 5743.874)" fill="#7e84a3" font-size="6" font-family="Poppins-Regular, Poppins"><tspan x="-3" y="0">0</tspan></text>
+    <text id="Customer_Growth" data-name="Customer Growth" transform="translate(-985 5537.874)" font-size="10" font-family="Poppins-SemiBold, Poppins" font-weight="600" letter-spacing="0.006em"><tspan x="0" y="0">Statistic Chart</tspan></text>
+    <text id="Jan" transform="translate(-493.143 5761.957)" fill="#7e84a3" font-size="5" font-family="Poppins-Regular, Poppins"><tspan x="-4" y="0">Nov</tspan></text>
+    <text id="Jan-2" data-name="Jan" transform="translate(-533.144 5763.957)" fill="#7e84a3" font-size="7" font-family="Poppins-Regular, Poppins"><tspan x="-6" y="0">Oct</tspan></text>
+    <text id="Jan-3" data-name="Jan" transform="translate(-575.146 5761.957)" fill="#7e84a3" font-size="5" font-family="Poppins-Regular, Poppins"><tspan x="-4" y="0">Sep</tspan></text>
+    <text id="Jan-4" data-name="Jan" transform="translate(-615.612 5763.957)" fill="#7e84a3" font-size="7" font-family="Poppins-Regular, Poppins"><tspan x="-6" y="0">Aug</tspan></text>
+    <text id="Jan-5" data-name="Jan" transform="translate(-655.22 5761.957)" fill="#7e84a3" font-size="5" font-family="Poppins-Regular, Poppins"><tspan x="-3" y="0">Jul</tspan></text>
+    <text id="Jan-6" data-name="Jan" transform="translate(-694.221 5762.957)" fill="#131523" font-size="6" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-5" y="0">Jun</tspan></text>
+    <text id="Jan-7" data-name="Jan" transform="translate(-737.152 5763.957)" fill="#7e84a3" font-size="7" font-family="Poppins-Regular, Poppins"><tspan x="-7" y="0">May</tspan></text>
+    <text id="Jan-8" data-name="Jan" transform="translate(-777.689 5763.957)" fill="#7e84a3" font-size="7" font-family="Poppins-Regular, Poppins"><tspan x="-6" y="0">Apr</tspan></text>
+    <text id="Jan-9" data-name="Jan" transform="translate(-819.69 5761.957)" fill="#7e84a3" font-size="5" font-family="Poppins-Regular, Poppins"><tspan x="-4" y="0">Mar</tspan></text>
+    <text id="Jan-10" data-name="Jan" transform="translate(-859.691 5763.957)" fill="#7e84a3" font-size="7" font-family="Poppins-Regular, Poppins"><tspan x="-6" y="0">Feb</tspan></text>
+    <text id="Jan-11" data-name="Jan" transform="translate(-900.693 5763.957)" fill="#7e84a3" font-size="7" font-family="Poppins-Regular, Poppins"><tspan x="-6" y="0">Jan</tspan></text>
+    <text id="Jan-12" data-name="Jan" transform="translate(-942.159 5763.957)" fill="#7e84a3" font-size="7" font-family="Poppins-Regular, Poppins"><tspan x="-6" y="0">Dec</tspan></text>
+    <path id="Path_1161" data-name="Path 1161" d="M-919.546,5786.269l410.057-173.352" transform="translate(-23.423 -37.057)" fill="none" stroke="#28a745" stroke-linecap="round" stroke-width="2"/>
+    <path id="Path_1164" data-name="Path 1164" d="M-962.1,5786.269l441.216-173.352" transform="translate(30.153 -37.057)" fill="none" stroke="#ff7452" stroke-linecap="round" stroke-width="2"/>
+    <path id="Path_1162" data-name="Path 1162" d="M-909.579,5798.376l445.49-140.388" transform="translate(-26.093 -49.128)" fill="none" stroke="#2684ff" stroke-linecap="round" stroke-width="2"/>
+    <path id="Path_1163" data-name="Path 1163" d="M-916.332,5787.174l41.832-5.583,41.851-9.81,40.217-37.927,40.216,23.541,43.159-23.541,41.851-57.546,37.928,30.08,39.236-48.063,42.178-10.462,38.909,3.923,42.94-35.355" transform="translate(-24.284 -37.998)" fill="none" stroke="#f0142f" stroke-linecap="round" stroke-width="2"/>
+    <g id="Group_1179" data-name="Group 1179" transform="translate(-692.278 5576.173)">
+      <g id="Tooltip" transform="translate(0 25.162)">
+        <g transform="matrix(1, 0, 0, 1, -314.72, -94.46)" filter="url(#BG)">
+          <path id="BG-3" data-name="BG" d="M7.785,78c-2.082,0-3.77-2.495-3.77-5.572V33.481L0,29.435l4.015-4.047V5.572C4.015,2.495,5.7,0,7.785,0H115.231C117.312,0,119,2.495,119,5.572V72.428c0,3.077-1.687,5.572-3.769,5.572Z" transform="translate(315 94)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Data" transform="translate(12.093 83.346)">
+        <text id="Online_Sales" data-name="Online Sales" transform="translate(30.185 8.354)" fill="#7e84a3" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Completed </tspan></text>
+        <text id="_750" data-name="$750" transform="translate(8.185 8.354)" fill="#131523" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">256</tspan></text>
+        <rect id="Sales" width="5" height="5" rx="2.5" transform="translate(-0.815 3.354)" fill="#28a745"/>
+      </g>
+      <g id="Data-2" data-name="Data" transform="translate(12.093 66.596)">
+        <text id="Online_Sales-2" data-name="Online Sales" transform="translate(30.185 8.104)" fill="#7e84a3" font-size="7" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">In Progress</tspan></text>
+        <text id="_750-2" data-name="$750" transform="translate(8.185 8.104)" fill="#131523" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">224</tspan></text>
+        <rect id="Sales-2" data-name="Sales" width="5" height="5" rx="2.5" transform="translate(-0.815 3.105)" fill="#ffab00"/>
+      </g>
+      <g id="Data-3" data-name="Data" transform="translate(12.093 49.846)">
+        <text id="Online_Sales-3" data-name="Online Sales" transform="translate(30.185 7.854)" fill="#7e84a3" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">To Do</tspan></text>
+        <text id="_750-3" data-name="$750" transform="translate(9.185 7.854)" fill="#131523" font-size="7" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">145</tspan></text>
+        <rect id="Sales-3" data-name="Sales" width="5" height="5" rx="2.5" transform="translate(0.185 2.855)" fill="#707070"/>
+      </g>
+      <text id="Titlee" transform="translate(11.278 39.701)" fill="#131523" font-size="7" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">June, 2023</tspan></text>
+      <path id="Path_1165" data-name="Path 1165" d="M-577,5786.32V5613.245" transform="translate(577.111 -5613.245)" fill="none" stroke="rgba(112,112,112,0.32)" stroke-linecap="round" stroke-width="1" stroke-dasharray="3 3"/>
+    </g>
+    <g id="Group_1387" data-name="Group 1387" transform="translate(-673.765 5527.284)">
+      <rect id="Rectangle_145" data-name="Rectangle 145" width="58" height="25" rx="6" transform="translate(-0.234 -0.409)" fill="#f4f5f7"/>
+      <text id="Today" transform="translate(28.766 14.59)" fill="#0052cc" font-size="7" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-10" y="0">Today</tspan></text>
+    </g>
+    <g id="Group_1388" data-name="Group 1388" transform="translate(-611.174 5527.284)">
+      <rect id="Rectangle_145-2" data-name="Rectangle 145" width="58" height="25" rx="6" transform="translate(0.173 -0.409)" fill="#f4f5f7"/>
+      <text id="Week" transform="translate(29.173 14.59)" fill="#0052cc" font-size="8" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-11" y="0">Week</tspan></text>
+    </g>
+    <g id="Group_1389" data-name="Group 1389" transform="translate(-547.7 5527.284)">
+      <rect id="Rectangle_145-3" data-name="Rectangle 145" width="58" height="25" rx="6" transform="translate(-0.3 -0.409)" fill="#0052cc"/>
+      <text id="Month" transform="translate(28.7 14.59)" fill="#fff" font-size="7" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-11" y="0">Month</tspan></text>
+    </g>
+  </g>
+</svg>

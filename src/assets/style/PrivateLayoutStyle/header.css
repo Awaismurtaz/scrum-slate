@@ -1,0 +1,43 @@
+
+.PublicNavbar {
+    box-shadow:unset !important;
+    padding:10px 0px 15px 0px;
+    background-color:#ffff!important;
+    color: black !important;
+    position: fixed;
+    position: relative;
+    z-index:1100 !important;
+}
+.PublicNavbar .header_button{
+    width: 49px;
+    height: 20px;
+    padding: 25px 50px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 16px;
+    top: 10px;
+    right: 21px;
+    border-radius: 10px;
+}
+.css-mf1cb5-MuiButtonBase-root-MuiIconButton-root:hover {
+    background-color: unset !important; 
+}
+.header_menu{
+    width: 255px !important;
+    height: 277px;
+    float: inline-end;
+    margin-top: 0px;
+    margin-right: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:390px){
+    .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper{
+        width: 200px;
+        height: 250px;
+        position:absolute;
+        right: 0;
+    }
+}
+

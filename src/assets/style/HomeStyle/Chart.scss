@@ -1,0 +1,50 @@
+.chart{
+    .container{
+        margin: 100px auto;
+        .row{
+            .text-col{
+                .card{
+                    border: none;
+                    .card-body{
+                        .card-title{
+                            font-size: 30px ;
+                            line-height: 39px;
+                            font-weight: 700;
+                        }
+                        .card-text{
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 21px;
+                        }
+                        .row{
+                            .col{
+                                .steps{
+                                    border-left: 3px solid var(--unnamed-color-2684ff);
+                                    padding: 0px 10px;
+                                    label{
+                                        font-size: 18px;
+                                        line-height: 27px;
+                                        font-weight:700;
+                                        padding:0px 5px;
+                                    }
+                                    p{
+                                        font-size: 16px;
+                                        line-height: 27px;
+                                        color: var( --unnamed-color-707070);
+                                    }
+                                }
+                            }
+                        }
+                        .btn {
+                            width: 160px;
+                            height: 48px;
+                            justify-content: center;
+                            display: flex;
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

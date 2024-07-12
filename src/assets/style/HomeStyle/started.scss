@@ -1,0 +1,60 @@
+.started{
+    background: transparent 
+    linear-gradient(119deg, #FFFFFF 0%, rgb(151 187 241 / 31%) 100%) 0% 0% no-repeat padding-box;
+    height: auto;
+    .container{
+        .row{
+            .text_col{
+              margin:150px auto;
+              padding: 0;
+                .card{
+                    background: transparent;
+                    border: unset;
+                    .card-body{
+                        padding:20px;
+                        width: 77%;
+                        .card-title{
+                            font-size: 48px;
+                            line-height: 72px;
+                            letter-spacing: 0.2px;
+                            color:var(--unnamed-color-292929);
+                            font-weight: 700;
+                        }
+                        .card-text{
+                            color: var( --unnamed-color-000000);
+                            font-size: 16px;
+                            line-height: 25px;
+                            font-weight: 500;
+                        }
+                        .card-link{
+                            display: flex;
+                            gap: 20px;
+                            .btn{
+                                border-radius: 10px;
+                                width: 160px;
+                                height: 48px;
+                                align-items: center;
+                                display: flex;
+                                justify-content: center;
+                                font-weight: 600;
+                                i{
+                                    font-size: 30px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .mange_col{
+                margin:150px auto;
+                padding: 0;
+                .mange{
+                    img{
+                        width:100%;
+                        height: 453px;
+                    }
+                }
+            }
+        }
+    }
+}

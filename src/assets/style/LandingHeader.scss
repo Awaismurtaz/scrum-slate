@@ -1,0 +1,71 @@
+.header{
+    .navbar{
+        height: 100px;
+        background: transparent 
+        linear-gradient(119deg, #FFFFFF 0%, #97bbf12c 100%) 0% 0% no-repeat padding-box;  
+        .container{
+            .navbar-collapse{
+                .navbar-nav{
+                    padding: 0px 20px 0px 100px;
+                    position: relative;
+                    .nav-item{
+                        .nav-link{
+                            display: flex;
+                            align-items: center;
+                            margin: 0px 20px 0px 20px;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 21px;
+                            letter-spacing: 0.06px;
+                            color: #707070;
+                            &:focus,
+                            &.active{
+                              color:var( --unnamed-color-0052cc);
+                            }
+                        }
+                    }
+                }
+                .search{
+                     position:absolute;
+                     width: 40%;
+                     padding: 0px 20px 0px 100px;
+                     top: 40px;
+                    .form-control{
+                        background:transparent;
+                        outline: none;
+                        border: none;
+                        opacity: 9999;
+                        &:focus{
+                            box-shadow: unset;
+                          }
+                    }
+                    .input-group-text{
+                        border: none;
+                    }
+                    button{
+                        position: absolute;
+                        right: -28%;
+                        top: 0px;
+                        border: none;
+                        background-color: transparent;
+                        i{
+                            font-size: 20px;
+                        }
+                    }
+                    .search_close{
+                        .input-group{
+                            top: -10px;
+                        }
+                    }
+                }
+                .Signin_button{
+                    position:absolute;
+                    right: 15%;
+                    font-weight: 500;
+                    padding: 10px 25px;
+                }
+            }
+           
+        }
+    }
+}
